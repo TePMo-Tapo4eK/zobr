@@ -1,26 +1,39 @@
+.films_item {
+    text-align: center;
+}
 
 .page_films_items {
+    text-align: center;
     padding: 0 150px;
     max-width: 2100px;
-    height: 700px;
     width: auto;
     margin: 0 auto;
     margin-top: 120px;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.film_item{
+
+.film_item {
     border-radius: 20px;
     height: 464px;
-    width:325px;
+    width: 325px;
     border: 3px solid #9b60e5;
     background-color: rgba(155, 96, 229, 0.1);
     margin: 0 15px 30px;
 }
-.film_item:hover{
 
+.film_item p {
+    color: white;
+    font-size: 20px;
+    margin-top: 120%
+}
+
+.film_item:hover {
+    -webkit-box-shadow: 0px 0px 38px -3px rgba(155, 96, 229, 0.2);
+    -moz-box-shadow: 0px 0px 38px -3px rgba(155, 96, 229, 0.2);
+    box-shadow: 0px 0px 38px -3px rgba(155, 96, 229, 0.2);
     background-color: rgba(155, 96, 229, 0.2);
     transition-duration: 0.1s;
 
