@@ -40,7 +40,7 @@
     .header {padding: 0 80px;}
 }
 @media  screen and (max-width: 700px) {
-    .header {padding: 0 50px;}
+    .header {padding: 0 44px;}
     .header .link{
         font-size: 0;
     }
