@@ -36,3 +36,27 @@
     margin-top: 3px;
     border-bottom: 3px solid #9B60E5;
 }
+@media screen and (max-width: 905px) {
+    .header {padding: 0 80px;}
+}
+@media  screen and (max-width: 700px) {
+    .header {padding: 0 50px;}
+    .header .link{
+        font-size: 0;
+    }
+    .header .btn{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .header .btn{
+        font-size: 10px;
+    }
+    .header {
+        height: 100px;
+    }
+    .header_logo{
+        font-weight: 600;
+        font-size: 30px
+    }
+}
