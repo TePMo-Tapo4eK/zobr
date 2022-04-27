@@ -1,0 +1,17 @@
+
+.App{
+    height: 100vh;
+}.btn {
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: 3px solid #9b60e5;
+    background-color: rgba(155, 96, 229, 0.1);
+    -webkit-box-shadow: 0px 0px 38px -3px rgba(155, 96, 229, 0.2);
+    -moz-box-shadow: 0px 0px 38px -3px rgba(155, 96, 229, 0.2);
+    box-shadow: 0px 0px 38px -3px rgba(155, 96, 229, 0.2);
+}
+.btn:hover {
+    background-color: rgba(155, 96, 229, 0.3);
+    transition-duration: 0.1s;
+}

@@ -1,0 +1,38 @@
+.header {
+    height: 120px;
+    width: 100%;
+    padding: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0px;
+    background-color: #131313;
+    z-index: 2;
+}
+.header_logo{
+    font-weight: 600;
+}
+.header ul{
+    display: flex;
+    align-items: baseline;
+    font-size: 20px;
+}
+.header li:first-child{
+    margin: 0 50px 0 0;
+}
+.header li:last-child{
+    margin: 0;
+}
+.header .link{
+    display: inline-block;
+    height: 55px;
+    display: flex;
+    align-items: center;
+}
+.link:hover{
+    margin-top: 3px;
+    border-bottom: 3px solid #9B60E5;
+}
