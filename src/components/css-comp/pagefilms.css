@@ -13,7 +13,7 @@
     margin-top: 120px;
     display: inline-flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -44,6 +44,25 @@
     .film_item p {
         color: white;
         font-size: 20px;
-        margin-top: 140%;
+        margin-top: 150%;
+        opacity: 0;
+
+    }
+    .film_item {
+        text-align: center;
+        width: 240px;
+        height: 350px;
+        background: url(../images/1.jpg) center scroll;
+        background-size:cover;
+        padding: 0 20px;
+    }
+    .film_item:hover {
+        background: #000000;
+        border: 3px solid #ffffff;
+    }
+    .film_item:hover p{
+
+        opacity: 1;
+        transition-duration: 0.5s;
     }
 }

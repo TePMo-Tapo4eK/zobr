@@ -105,13 +105,15 @@
         width: 80%;
         font-size: 18px;
         border-radius: 18px;
+        border: 2px solid #9B60E5;
     }
     .join_room {
         margin-top: 100px;
-        height: 400px;
+        height: 450px;
         width: 80%;
         font-size: 18px;
         border-radius: 18px;
+        border: 2px solid #9B60E5;
     }
 
     .join_room .inp_data p{
@@ -123,10 +125,12 @@
         height: 60px;
         border-radius: 10px;
         margin-bottom: 0px;
+        border: 2px solid #9B60E5;
     }
     .send_data .btn{
         margin-top: 20px;
         font-size: 14px;
+        
     }
     
 }

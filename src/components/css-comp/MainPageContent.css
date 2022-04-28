@@ -19,7 +19,7 @@
     text-shadow:  3px 0 50px rgba(155, 96, 229,0.4);
 }
 .page_text{
-    margin-top: 120px;
+    
     color: rgb(255, 255, 255);
 }
 .page_btns{
@@ -132,6 +132,7 @@
         font-size: 14px;
         line-height: 18px;
         margin: 15px 0 0;
+        border: 2px solid #9B60E5;
     }
 }
 @media screen and (max-width: 350px) {

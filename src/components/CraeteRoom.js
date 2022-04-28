@@ -13,7 +13,7 @@ const CraeteRoom = () => {
           <input type="text" placeholder="Пароль" />
         </div>
         <div className="send_data">
-          <Link to="/" className="btn">
+          <Link to="/films" className="btn">
             Выбор фильма
           </Link>
         </div>
