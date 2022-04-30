@@ -1,0 +1,51 @@
+
+
+.film_item {
+    border-radius: 20px;
+    height: 584px;
+    width: 350px;
+    border: 3px solid #9b60e5;
+    background-color: rgba(155, 96, 229, 0.1);
+    margin: 0 15px 30px;
+    padding: 10px;
+    text-align: left;
+}
+.film_item-preview{
+    height: 464px;
+    width: 325px;
+    background-color: #5c5c5c;
+    border-radius: 10px;
+    background: url(../images/1.jpg);
+    background-size: cover;
+}
+.film-title {
+    font-size: 26px;
+    color: #ffffff;
+    margin-top: 19px;
+    margin-left: 5px;
+}
+.film_item-description{
+    margin-left: 5px;
+    margin-top: 15px;
+    display: flex;
+    justify-content:first baseline;
+}
+.film_item-description p {
+    margin-right: 15px;
+    color: rgb(211, 211, 211);
+    font-size: 14px;
+}
+.film_item-description h2 {
+    color: rgb(224, 224, 224);
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.film_item:hover {
+    -webkit-box-shadow: 0px 0px 38px -3px rgba(155, 96, 229, 0.2);
+    -moz-box-shadow: 0px 0px 38px -3px rgba(155, 96, 229, 0.2);
+    box-shadow: 0px 0px 38px -3px rgba(155, 96, 229, 0.2);
+    background-color: rgba(155, 96, 229, 0.2);
+    transition-duration: 0.1s;
+    border: 3px solid #ffffff;
+}

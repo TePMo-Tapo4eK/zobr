@@ -9,8 +9,8 @@
     color: rgb(255, 255, 255);
     position: fixed;
     top: 0px;
-    background-color: #131313;
-    z-index: 2;
+
+    z-index: 999;
 }
 .header_logo a{
     color: white;

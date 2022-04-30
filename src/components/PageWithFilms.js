@@ -1,55 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "./css-comp/pagefilms.css";
+import FilmItem from "./FilmItem";
+import FilmModal from "./FilmModal";
 
 const PageFilms = () => {
+  const [modalActive, setModalActive] = useState(false)
   return (
     <div className="films_item">
       <div className="page_films_items">
-        <div className="film_item">
-          <p>Название</p>
-        </div>
-        <div className="film_item">
-          <p>Название</p>
-        </div>
-        <div className="film_item">
-          <p>Название</p>
-        </div>
-        <div className="film_item">
-          <p>Название</p>
-        </div>
-        <div className="film_item">
-          <p>Название</p>
-        </div>
-        <div className="film_item">
-          <p>Название</p>
-        </div>
-        <div className="film_item">
-          <p>Название</p>
-        </div>
-        <div className="film_item">
-          <p>Название</p>
-        </div>
-        <div className="film_item">
-          <p>Название</p>
-        </div>
-        <div className="film_item">
-          <p>Название</p>
-        </div>
-        <div className="film_item">
-          <p>Название</p>
-        </div>
-        <div className="film_item">
-          <p>Название</p>
-        </div>
-        <div className="film_item">
-          <p>Название</p>
-        </div>
-        <div className="film_item">
-          <p>Название</p>
-        </div>
-        <div className="film_item">
-          <p>Название</p>
-        </div>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmModal active={modalActive} setActive={setModalActive}/>
       </div>
     </div>
   );
