@@ -14,6 +14,36 @@ const PageFilms = () => {
         <FilmItem active={modalActive} setActive={setModalActive}/>
         <FilmItem active={modalActive} setActive={setModalActive}/>
         <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
         <FilmModal active={modalActive} setActive={setModalActive}/>
       </div>
     </div>
