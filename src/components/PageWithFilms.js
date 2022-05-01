@@ -9,6 +9,11 @@ const PageFilms = () => {
     <div className="films_item">
       <div className="page_films_items">
         <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
+        <FilmItem active={modalActive} setActive={setModalActive}/>
         <FilmModal active={modalActive} setActive={setModalActive}/>
       </div>
     </div>
