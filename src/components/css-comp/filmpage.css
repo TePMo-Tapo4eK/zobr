@@ -82,7 +82,7 @@
 }
 @media screen and (max-width: 500px) {
     .filmpage-window {
-        padding: 100px 10px 0px;
+        padding: 70px 10px 0px;
     }
     .filmpage-content{
         flex-direction: column-reverse;
@@ -90,7 +90,7 @@
     }
     .filmpage-chat{
         border-radius: 15px;
-        margin-top: 30px;
+        margin-top: 10px;
         margin-right: 0px;
     }
     .filmpage-chat svg{
