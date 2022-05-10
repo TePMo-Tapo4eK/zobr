@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
+import { useParams } from "react-router-dom";
 import './css-comp/filmpage.css'
 
-const FilmPage = () => {
+const FilmPage = (props) => {
+    const {id} = useParams()
+    console.log(id)
     return(
         <div className="filmpage-window">
             <div className="filmpage-content">
@@ -10,7 +13,7 @@ const FilmPage = () => {
                     chat
                 </div>
                 <div className="filmpage-movie">
-                    <iframe src="//11.svetacdn.in/DydxIp22jpcR/tv-series/1160" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>                
+                    <iframe src={`//17758.svetacdn.in/DydxIp22jpcR/tv-series/${id}`} width="100%" height="100%" frameBorder="0" allowFullScreen></iframe>                
                 </div>
             </div>
         </div>

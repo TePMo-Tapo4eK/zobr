@@ -18,7 +18,7 @@ function App() {
         <Route  path="/create" element={<CraeteRoom/>}/>
         <Route  path="/join" element={<JoinRoom/>}/>
         <Route  path="/films" element={<PageFilms/>}/>
-        <Route  path="/film" element={<FilmPage/>}/>
+        <Route  path="/films/:id" element={<FilmPage/>}/>
       </Routes>
 
     </div>
@@ -26,5 +26,3 @@ function App() {
 }
 
 export default App;
-
-

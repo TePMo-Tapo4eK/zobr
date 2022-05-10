@@ -33,7 +33,7 @@
 }
 .film-main {
     display: flex;
-    justify-content:center;
+    justify-content:flex-start;
     height: 360px;
 }
 .film_modal img {
