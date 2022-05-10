@@ -1,6 +1,7 @@
 import React from "react";
 import "./css-comp/film-modal.css";
 import img from "./images/1.jpg";
+import Slider from "./slider/slider";
 
 const FilmModal = ({ active, setActive }) => {
   return (
@@ -9,6 +10,9 @@ const FilmModal = ({ active, setActive }) => {
       onClick={() => setActive(false)}
     >
       <div className="film_modal" onClick={(e) => e.stopPropagation()}>
+        
+        <div className="film-main">
+        
         <img alt="oblojka" src={img} />
         <div className="film_about">
           <div className="film_info">
@@ -42,10 +46,11 @@ const FilmModal = ({ active, setActive }) => {
               </div>
             </div>
             <div className="film_btn">
-              <a className="btn" href="/">
+              <a className="btn" href="13-res.html">
                 Выбрать фильм и создать комнату
               </a>
             </div>
+          </div>
           </div>
         </div>
       </div>

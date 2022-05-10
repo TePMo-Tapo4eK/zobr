@@ -6,6 +6,7 @@ import { Route, Routes} from 'react-router-dom';
 import JoinRoom from '../components/JoinRoom';
 import CraeteRoom from '../components/CraeteRoom';
 import PageFilms from '../components/PageWithFilms';
+import FilmPage from '../components/FilmPage';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route  path="/create" element={<CraeteRoom/>}/>
         <Route  path="/join" element={<JoinRoom/>}/>
         <Route  path="/films" element={<PageFilms/>}/>
+        <Route  path="/film" element={<FilmPage/>}/>
       </Routes>
 
     </div>
