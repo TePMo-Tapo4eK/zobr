@@ -1,7 +1,7 @@
 import React from "react";
 import "./css-comp/film-modal.css";
 import img from "./images/1.jpg";
-import Slider from "./slider/slider";
+import { Link } from "react-router-dom";
 
 const FilmModal = ({ active, setActive }) => {
   return (
@@ -46,9 +46,9 @@ const FilmModal = ({ active, setActive }) => {
               </div>
             </div>
             <div className="film_btn">
-              <a className="btn" href="13-res.html">
+              <Link className="btn" to='/film'>
                 Выбрать фильм и создать комнату
-              </a>
+              </Link>
             </div>
           </div>
           </div>

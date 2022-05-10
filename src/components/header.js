@@ -11,7 +11,7 @@ const Header = () => {
         </div>
         <ul>
           <li><a className="link">Частые вопросы</a></li>
-          <li><Link className="btn" to="/create">Создать комнату</Link></li>
+          <li><Link className="btn disabled" to="/create">Создать комнату</Link></li>
         </ul>
       </div>
     </div>
