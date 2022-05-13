@@ -13,7 +13,7 @@ const FilmPage = (props) => {
                     chat
                 </div>
                 <div className="filmpage-movie">
-                    <iframe src={`//17758.svetacdn.in/DydxIp22jpcR/tv-series/${id}`} width="100%" height="100%" frameBorder="0" allowFullScreen></iframe>                
+                    <iframe src={`//17758.svetacdn.in/DydxIp22jpcR?kp_id=${id}`} width="100%" height="100%" frameBorder="0" allowFullScreen></iframe>                
                 </div>
             </div>
         </div>

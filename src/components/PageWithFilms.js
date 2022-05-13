@@ -25,7 +25,8 @@ const PageFilms = () => {
       actors: '',
       genre: '',
       year: '',
-      url: ''
+      url: '',
+      url1: ''
     },
 
     */
@@ -40,8 +41,8 @@ const PageFilms = () => {
         "Томас Миддлдитч Джош Бренер Мартин Старр Кумэйл Нанджиани Аманда Крю Зак Вудс Мэтт Росс Джимми О. Ян Сюзанн Крайер ТиДжей Миллер",
       genre: "комедия",
       year: "2014-19",
-      url: '<iframe src="//17758.svetacdn.in/DydxIp22jpcR/tv-series/287" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>',
-      url1: 287
+      url: '',
+      url1: 723959
     },
     {
       id: "2",
@@ -53,8 +54,236 @@ const PageFilms = () => {
         "Дилан Миннетт, Кэтрин Лэнгфорд, Кейт Уолш, Кристиан Наварро, Майлс Хейзер",
       genre: "драма, детектив",
       year: "2021",
-      url: '<iframe src="//17758.svetacdn.in/DydxIp22jpcR/tv-series/1160" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>',
-      url1: 1160
+      url: '',
+      url1: 582358
+    },
+    {
+      id: '',
+      image: '',
+      title: 'Бумажный дом',
+      discription: '',
+      authors: '',
+      actors: '',
+      genre: '',
+      year: '',
+      url: '',
+      url1: '1046206'
+    },
+    {
+      id: '',
+      image: '',
+      title: 'Половое воспитание',
+      discription: '',
+      authors: '',
+      actors: '',
+      genre: '',
+      year: '',
+      url: '',
+      url1: '775209'
+    },
+    {
+      id: '',
+      image: '',
+      title: 'Элита',
+      discription: '',
+      authors: '',
+      actors: '',
+      genre: '',
+      year: '',
+      url: '',
+      url1: '1117735'
+    },
+    {
+      id: '',
+      image: '',
+      title: 'Люцифер',
+      discription: '',
+      authors: '',
+      actors: '',
+      genre: '',
+      year: '',
+      url: '',
+      url1: '893621'
+    },
+    {
+      id: '',
+      image: '',
+      title: 'Как продать наркотики онлайн',
+      discription: '',
+      authors: '',
+      actors: '',
+      genre: '',
+      year: '',
+      url: '',
+      url1: '1246988'
+    },
+    {
+      id: '',
+      image: '',
+      title: 'Псы резервации',
+      discription: '',
+      authors: '',
+      actors: '',
+      genre: '',
+      year: '',
+      url: '',
+      url1: '4296469'
+    },
+    {
+      id: '',
+      image: '',
+      title: 'Уэйн',
+      discription: '',
+      authors: '',
+      actors: '',
+      genre: '',
+      year: '',
+      url: '',
+      url1: '1167154'
+    },
+    {
+      id: '',
+      image: '',
+      title: 'Тетрадь смерти',
+      discription: '',
+      authors: '',
+      actors: '',
+      genre: '',
+      year: '',
+      url: '',
+      url1: '406148'
+    },
+    {
+      id: '',
+      image: '',
+      title: 'Основные принципы добра',
+      discription: '',
+      authors: '',
+      actors: '',
+      genre: '',
+      year: '',
+      url: '',
+      url1: '719608'
+    },
+    {
+      id: '',
+      image: '',
+      title: 'Все радостные места',
+      discription: '',
+      authors: '',
+      actors: '',
+      genre: '',
+      year: '',
+      url: '',
+      url1: '894972'
+    },
+    {
+      id: '',
+      image: '',
+      title: 'Думаю как все закончить',
+      discription: '',
+      authors: '',
+      actors: '',
+      genre: '',
+      year: '',
+      url: '',
+      url1: '1219852'
+    },
+    {
+      id: '',
+      image: '',
+      title: 'Химические сердца',
+      discription: '',
+      authors: '',
+      actors: '',
+      genre: '',
+      year: '',
+      url: '',
+      url1: '1272735'
+    },
+    {
+      id: '',
+      image: '',
+      title: 'Мне это не нравится',
+      discription: '',
+      authors: '',
+      actors: '',
+      genre: '',
+      year: '',
+      url: '',
+      url1: '1261983'
+    },
+    {
+      id: '',
+      image: '',
+      title: 'Назови меня своим именем',
+      discription: '',
+      authors: '',
+      actors: '',
+      genre: '',
+      year: '',
+      url: '',
+      url1: '979148'
+    },
+    {
+      id: '',
+      image: '',
+      title: 'В поисках Аляски',
+      discription: '',
+      authors: '',
+      actors: '',
+      genre: '',
+      year: '',
+      url: '',
+      url1: '929473'
+    },
+    {
+      id: '',
+      image: '',
+      title: 'Леденящие душу приключения Сабрины',
+      discription: '',
+      authors: '',
+      actors: '',
+      genre: '',
+      year: '',
+      url: '',
+      url1: '1108352'
+    },
+    {
+      id: '',
+      image: '',
+      title: 'Конец ***го мира',
+      discription: '',
+      authors: '',
+      actors: '',
+      genre: '',
+      year: '',
+      url: '',
+      url1: ''
+    },
+    {
+      id: '',
+      image: '',
+      title: 'Нетипичный',
+      discription: '',
+      authors: '',
+      actors: '',
+      genre: '',
+      year: '',
+      url: '',
+      url1: '1046641'
+    },
+    {
+      id: '',
+      image: '',
+      title: 'Очень странные дела',
+      discription: '',
+      authors: '',
+      actors: '',
+      genre: '',
+      year: '',
+      url: '',
+      url1: '915196'
     },
   ];
 
