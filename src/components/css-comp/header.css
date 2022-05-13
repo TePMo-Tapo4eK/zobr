@@ -36,9 +36,11 @@
     height: 55px;
     display: flex;
     align-items: center;
+    
 }
 .link:hover{
     margin-top: 3px;
+    border-bottom: 3px solid #9B60E5;
 }
 @media screen and (max-width: 1500px) {
     .header .btn{
