@@ -128,16 +128,16 @@
 @media screen and (max-width: 370px) {
     .film_item {
         border-radius: 10px;
-        height: calc(584px * 0.245);
-        width: calc(350px * 0.235);
+        height: calc(584px * 0.270);
+        width: calc(350px * 0.275);
         border:1px solid #9b60e5;
         background-color: rgba(155, 96, 229, 0.1);
         margin: 0 8px 16px;
         padding: 2px;
     }
     .film_item-preview{
-        height: calc(464px * 0.23);
-        width: calc(325px * 0.23);
+        height: calc(464px * 0.27);
+        width: calc(325px * 0.27);
         border-radius: 5px;
     }
     .film-title {
