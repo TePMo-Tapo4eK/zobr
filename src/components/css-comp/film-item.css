@@ -20,7 +20,7 @@
 }
 .film-title {
     font-size: 22px;
-    color: #ffffff;
+    color: #fefefe;
     margin-top: 19px;
     margin-left: 5px;
 }
@@ -47,7 +47,7 @@
     box-shadow: 0px 0px 38px -3px rgba(155, 96, 229, 0.2);
     background-color: rgba(155, 96, 229, 0.2);
     transition-duration: 0.1s;
-    border-color: #ffffff;
+    border-color: #fefefe;
 }
 @media screen and (max-width: 1500px) {
     .film_item {
@@ -66,7 +66,7 @@
     }
     .film-title {
         font-size: 16px;
-        color: #ffffff;
+        color: #fefefe;
         margin-top: 12px;
         margin-left: 3px;
     }
@@ -90,7 +90,7 @@
 @media screen and (max-width: 500px) {
     .film_item {
         border-radius: 10px;
-        height: calc(584px * 0.3);
+        height: calc(584px * 0.315);
         width: calc(350px * 0.3);
         border:1px solid #9b60e5;
         background-color: rgba(155, 96, 229, 0.1);
@@ -104,7 +104,7 @@
     }
     .film-title {
         font-size: 9px;
-        color: #ffffff;
+        color: #fefefe;
         margin-top: 5px;
         margin-left: 3px;
     }
@@ -122,6 +122,44 @@
     .film_item-description h2 {
         color: rgb(224, 224, 224);
         font-size: 7px;
+        margin-right: 5px;
+    }
+}
+@media screen and (max-width: 370px) {
+    .film_item {
+        border-radius: 10px;
+        height: calc(584px * 0.245);
+        width: calc(350px * 0.235);
+        border:1px solid #9b60e5;
+        background-color: rgba(155, 96, 229, 0.1);
+        margin: 0 8px 16px;
+        padding: 2px;
+    }
+    .film_item-preview{
+        height: calc(464px * 0.23);
+        width: calc(325px * 0.23);
+        border-radius: 5px;
+    }
+    .film-title {
+        font-size: 7px;
+        color: #fefefe;
+        margin-top: 5px;
+        margin-left: 3px;
+    }
+    .film_item-description{
+        margin-left: 3px;
+        margin-top: 4px;
+        display: flex;
+        justify-content:first baseline;
+    }
+    .film_item-description p {
+        margin-right: 5px;
+        color: rgb(211, 211, 211);
+        font-size: 5px;
+    }
+    .film_item-description h2 {
+        color: rgb(224, 224, 224);
+        font-size: 6px;
         margin-right: 5px;
     }
 }

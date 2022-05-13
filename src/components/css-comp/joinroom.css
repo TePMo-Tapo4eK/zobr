@@ -48,7 +48,7 @@
 .inp_data p {
     text-align: center;
     font-size: 30px;
-    color: white;
+    color: #fefefe;
     margin-bottom: 30px;
     margin-top: -20px;
 }
@@ -60,7 +60,7 @@
     border-radius: 20px;
     border: 3px solid #9b60e5;
     background-color: rgba(155, 96, 229, 0.1);
-    color: white;
+    color: #fefefe;
     padding: 0 20px;
     font-size: 26px;
 }
@@ -94,7 +94,7 @@
 
     .inp_data p {
         font-size: 20px;
-        color: white;
+        color: #fefefe;
         margin-bottom: 10px;
         margin-top: -50px;
     }
