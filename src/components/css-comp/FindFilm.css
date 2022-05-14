@@ -1,0 +1,27 @@
+
+.findfilm{
+    margin-top: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.findfilm .btn{
+    height: 60px;
+    width: 234px;
+    margin-left: 20px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.findfilm input {
+    padding-left: 15px;
+    height: 60px;
+    font-size: 20px;
+    width: 300px;
+    color: #fefefe;
+    background-color: #131313;
+    border-bottom: 3px solid #9B60E5;;
+}
