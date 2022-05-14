@@ -40,7 +40,6 @@ const FilmModal = (props) => {
               </div>
             </div>
             <div className="film_btn">
-              {console.log(props.url1)}
               <Link className="btn" to={`/films/${props.url}`}>
                 Выбрать фильм
               </Link>

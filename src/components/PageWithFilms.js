@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./css-comp/pagefilms.css";
 import FilmItem from "./FilmItem";
 import FilmModal from "./FilmModal";
+import FindFilm from "./FindFilm";
 
 const PageFilms = () => {
   const [modalActive, setModalActive] = useState(false);
@@ -12,7 +13,11 @@ const PageFilms = () => {
   const [actors, setActors] = useState("");
   const [genre, setGenre] = useState("");
   const [url1, setUrl1] = useState("");
+  const [filmk , setFilmk] = useState([])
 
+  
+
+   
   const Films = [
     /* 
     
@@ -30,6 +35,7 @@ const PageFilms = () => {
     },
 
     */
+   
     {
       id: "1",
       title: "Кремниевая долина",
@@ -58,7 +64,7 @@ const PageFilms = () => {
       url1: 582358
     },
     {
-      id: '',
+      id: '3',
       image: '',
       title: 'Бумажный дом',
       discription: '',
@@ -70,7 +76,7 @@ const PageFilms = () => {
       url1: '1046206'
     },
     {
-      id: '',
+      id: '4',
       image: '',
       title: 'Половое воспитание',
       discription: '',
@@ -82,7 +88,7 @@ const PageFilms = () => {
       url1: '775209'
     },
     {
-      id: '',
+      id: '5',
       image: '',
       title: 'Элита',
       discription: '',
@@ -94,7 +100,7 @@ const PageFilms = () => {
       url1: '1117735'
     },
     {
-      id: '',
+      id: '6',
       image: '',
       title: 'Люцифер',
       discription: '',
@@ -106,7 +112,7 @@ const PageFilms = () => {
       url1: '893621'
     },
     {
-      id: '',
+      id: '7',
       image: '',
       title: 'Как продать наркотики онлайн',
       discription: '',
@@ -118,7 +124,7 @@ const PageFilms = () => {
       url1: '1246988'
     },
     {
-      id: '',
+      id: '8',
       image: '',
       title: 'Псы резервации',
       discription: '',
@@ -130,7 +136,7 @@ const PageFilms = () => {
       url1: '4296469'
     },
     {
-      id: '',
+      id: '9',
       image: '',
       title: 'Уэйн',
       discription: '',
@@ -142,7 +148,7 @@ const PageFilms = () => {
       url1: '1167154'
     },
     {
-      id: '',
+      id: '10',
       image: '',
       title: 'Тетрадь смерти',
       discription: '',
@@ -154,7 +160,7 @@ const PageFilms = () => {
       url1: '406148'
     },
     {
-      id: '',
+      id: '11',
       image: '',
       title: 'Основные принципы добра',
       discription: '',
@@ -166,7 +172,7 @@ const PageFilms = () => {
       url1: '719608'
     },
     {
-      id: '',
+      id: '12',
       image: '',
       title: 'Все радостные места',
       discription: '',
@@ -178,7 +184,7 @@ const PageFilms = () => {
       url1: '894972'
     },
     {
-      id: '',
+      id: '13',
       image: '',
       title: 'Думаю как все закончить',
       discription: '',
@@ -190,7 +196,7 @@ const PageFilms = () => {
       url1: '1219852'
     },
     {
-      id: '',
+      id: '14',
       image: '',
       title: 'Химические сердца',
       discription: '',
@@ -202,7 +208,7 @@ const PageFilms = () => {
       url1: '1272735'
     },
     {
-      id: '',
+      id: '15',
       image: '',
       title: 'Мне это не нравится',
       discription: '',
@@ -214,7 +220,7 @@ const PageFilms = () => {
       url1: '1261983'
     },
     {
-      id: '',
+      id: '16',
       image: '',
       title: 'Назови меня своим именем',
       discription: '',
@@ -226,7 +232,7 @@ const PageFilms = () => {
       url1: '979148'
     },
     {
-      id: '',
+      id: '17',
       image: '',
       title: 'В поисках Аляски',
       discription: '',
@@ -238,7 +244,7 @@ const PageFilms = () => {
       url1: '929473'
     },
     {
-      id: '',
+      id: '18',
       image: '',
       title: 'Леденящие душу приключения Сабрины',
       discription: '',
@@ -250,7 +256,7 @@ const PageFilms = () => {
       url1: '1108352'
     },
     {
-      id: '',
+      id: '19',
       image: '',
       title: 'Конец ***го мира',
       discription: '',
@@ -262,7 +268,7 @@ const PageFilms = () => {
       url1: ''
     },
     {
-      id: '',
+      id: '20',
       image: '',
       title: 'Нетипичный',
       discription: '',
@@ -274,7 +280,7 @@ const PageFilms = () => {
       url1: '1046641'
     },
     {
-      id: '',
+      id: '21',
       image: '',
       title: 'Очень странные дела',
       discription: '',
@@ -284,13 +290,18 @@ const PageFilms = () => {
       year: '',
       url: '',
       url1: '915196'
-    },
+    }
   ];
 
   return (
     <div className="films_item">
+
+    <FindFilm/>
+    <h1 className="our">Наша подборка</h1>
       <div className="page_films_items">
+        
         {Films.map(({ ...Films }) => (
+          
           <FilmItem
             key={Films.id}
             title={Films.title}
