@@ -25,3 +25,28 @@
     background-color: #131313;
     border-bottom: 3px solid #9B60E5;;
 }
+
+@media screen and (max-width: 520px) {
+    .findfilm{
+        margin-top: 120px;
+        height: 50px;
+        
+    }
+    .findfilm .btn{
+        height: 50px;
+        width: 100px;
+        margin-left: 20px;
+        font-size: 10px;
+        border: 2px solid #9B60E5;
+    }
+    
+    .findfilm input {
+        padding-left: 15px;
+        height: 50px;
+        font-size: 20px;
+        width: 200px;
+        color: #fefefe;
+        background-color: #131313;
+        border-bottom: 2px solid #9B60E5;
+    }
+}

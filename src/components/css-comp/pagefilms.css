@@ -16,15 +16,20 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+.films_item .our{
+    font-size: 30px;
+    color: #fefefe;
+    margin-top: 100px;
+}
 @media screen and (max-width: 500px) {
     .films_item {
         text-align: center;
         width: 100%;
         padding: 0 0px;
     }
-}
-.films_item .our{
-    font-size: 30px;
-    color: #fefefe;
-    margin-top: 100px;
+    .films_item .our{
+        font-size: 30px;
+        color: #fefefe;
+        margin-top: 60px;
+    }
 }
