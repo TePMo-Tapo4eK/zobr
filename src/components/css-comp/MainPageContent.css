@@ -56,6 +56,9 @@
         font-size: 25px;
         margin-bottom: 18px;
     }
+    .page_btns .btn .disabled{
+        border-color: #fefefe;
+    }
     .page_btns{
         margin-top: 100px;
     }
@@ -132,7 +135,7 @@
         font-size: 14px;
         line-height: 18px;
         margin: 15px 0 0;
-        border: 2px solid #9B60E5;
+        border-width: 2px;
     }
 }
 @media screen and (max-width: 350px) {
