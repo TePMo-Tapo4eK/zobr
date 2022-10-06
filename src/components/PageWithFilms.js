@@ -9,7 +9,7 @@ const PageFilms = () => {
   const [pages, setPages] = useState(0)
 
   useEffect(() => {
-    axios.get(`https://kinopoiskapiunofficial.tech/api/v2.2/films/premieres`,
+    axios.get(`https://kinopoiskapiunofficial.tech/api/v2.2/films/top`,
           {headers: {
             'X-API-KEY': '140dabd4-b4ac-4d65-b281-62e8d3b615c4',
             'Content-Type': 'application/json',
