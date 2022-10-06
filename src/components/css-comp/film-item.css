@@ -2,7 +2,7 @@
 
 .film_item {
     border-radius: 20px;
-    height: calc(584px * 0.9);
+    height: calc(600px * 0.9);
     width: calc(350px * 0.9);
     border: 3px solid #9b60e5;
     background-color: rgba(155, 96, 229, 0.1);
@@ -15,7 +15,6 @@
     width: calc(325px * 0.9);
     background-color: #5c5c5c;
     border-radius: 10px;
-    background: url(../images/1.jpg);
     background-size: cover;
 }
 .film-title {

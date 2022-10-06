@@ -21,6 +21,14 @@
     color: #fefefe;
     margin-top: 100px;
 }
+
+
+.pages{
+    display: flex;
+    background-color: #9B60E5;
+}
+
+
 @media screen and (max-width: 500px) {
     .films_item {
         text-align: center;
@@ -31,5 +39,66 @@
         font-size: 18px;
         color: #fefefe;
         margin-top: 60px;
+    }
+}
+
+
+.formik{
+    margin-top: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+button{
+    height: 60px;
+    width: 234px;
+    margin-left: 20px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    display: inline-block;
+    text-align: center;
+    color: #fefefe;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: 3px solid #9b60e5;
+    background-color: rgba(155, 96, 229, 0.1);
+    -webkit-box-shadow: 0px 0px 38px -3px rgba(155, 96, 229, 0.2);
+    -moz-box-shadow: 0px 0px 38px -3px rgba(155, 96, 229, 0.2);
+    box-shadow: 0px 0px 38px -3px rgba(155, 96, 229, 0.2);
+}
+.input {
+    padding-left: 15px;
+    height: 60px;
+    font-size: 20px;
+    width: 200px;
+    color: #fefefe;
+    background-color: #131313;
+    border-bottom: 3px solid #9B60E5;;
+}
+
+@media screen and (max-width: 520px) {
+
+    button{
+        height: 30px;
+        display: flex;
+        align-items: center;
+        width: 120px;
+        margin-left: 10px;
+        font-size: 9px;
+        border: 1px solid #9B60E5;
+        border-radius: 5px;
+    }
+    
+    .input {
+        padding-left: 15px;
+        height: 30px;
+        font-size: 12px;
+        width: 150px;
+        color: #fefefe;
+        background-color: #131313;
+        border-bottom: 1px solid #9B60E5;
     }
 }
